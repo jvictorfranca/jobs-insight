@@ -76,7 +76,6 @@ def matches_salary_range(job, salary):
     elif validateNumber(job['max_salary']) or validateNumber(
             job['min_salary']):
         raise ValueError
-        raise ValueError
     elif not isinstance(salary, int):
         raise ValueError
     elif job['max_salary'] < job['min_salary']:
