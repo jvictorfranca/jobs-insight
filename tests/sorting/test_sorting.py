@@ -150,4 +150,3 @@ def test_sort_by_criteria(mockedJobs):
     assert mockedJobs == jobs_sorted_by_max
     sort_by(mockedJobs, "date_posted")
     assert mockedJobs == jobs_sorted_by_date
-
